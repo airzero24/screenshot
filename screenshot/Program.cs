@@ -13,7 +13,7 @@ namespace screenshot
     {
         public static string CreateTempFileName()
         {
-            string result = Path.GetTempPath() + DateTime.Now.ToString("yyyyMMddHHmmss") + "-" + Guid.NewGuid().ToString() + ".jpeg";
+            string result = Path.GetTempPath() + DateTime.Now.ToString("yyyyMMddHHmmss") + "-" + Guid.NewGuid().ToString() + ".png";
             return result;
         }
 
